@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MEMBRANA.null
 
-## Getting Started
+Sistema fictício de e-commerce para aquisição de artefatos amaldiçoados,
+armamentos, explosivos e componentes ritualísticos.
 
-First, run the development server:
+Este projeto foi desenvolvido como **case de portfólio**, explorando
+arquitetura frontend, domínio narrativo e experiência do usuário.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠 Conceito
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A **MEMBRANA.null** é uma organização clandestina que opera na fronteira
+entre o mundo físico e o paranormal, comercializando itens cuja posse
+implica riscos físicos, mentais e metafísicos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Nem todas as transações podem — ou devem — ser concluídas.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 👤 Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Projeto desenvolvido por **Pedro Amaral** como parte do portfólio
+pessoal em frontend e engenharia de software.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Tecnologias
 
-## Deploy on Vercel
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛒 Funcionalidades
+
+- Catálogo de produtos com tipagem forte
+- Rotas dinâmicas para detalhes de itens
+- Estado global com Context API
+- Persistência de carrinho em localStorage
+- Regras de domínio baseadas em risco
+- Checkout narrativo com falha controlada
+
+---
+
+## 🔒 Regras do Sistema
+
+- Itens de **alto risco** podem impedir a finalização da compra
+- O checkout pode falhar por motivos narrativos
+- Nenhuma transação real é realizada
+
+---
+
+## 🧪 Status do Projeto
+
+Projeto fictício desenvolvido exclusivamente para fins educacionais
+e de portfólio.
+
+---
+
+## ⚠️ Aviso
+
+Este projeto não comercializa produtos reais e não possui
+qualquer vínculo com transações financeiras.

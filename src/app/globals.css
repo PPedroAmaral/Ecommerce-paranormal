@@ -1,26 +1,39 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+.theme-normal {
+  --bg: #f4f4f5;
+  --text: #111827;
+  --card: #ffffff;
+  --border: #d4d4d8;
+  --accent: #166534;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+.theme-paranormal {
+  --bg: #050505;
+  --text: #e5e7eb;
+  --card: #0f0f0f;
+  --border: #7f1d1d;
+  --accent: #991b1b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0a0a0a;
+  color: #e5e5e5;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0) }
+  20% { transform: translate(-2px, 2px) }
+  40% { transform: translate(2px, -2px) }
+  60% { transform: translate(-1px, 1px) }
+  80% { transform: translate(1px, -1px) }
+  100% { transform: translate(0) }
+}
+
+.glitch {
+  animation: glitch 0.2s infinite;
 }
